@@ -419,7 +419,7 @@ function twenty_twenty_one_scripts() {
 	// Register the IE11 polyfill file.
 	wp_register_script(
 		'twenty-twenty-one-ie11-polyfills-asset',
-		get_template_directory_uri() . '/assets/js/polyfills.js',
+		 get_template_directory_uri(). '/assets/js/polyfills.js',
 		array(),
 		wp_get_theme()->get( 'Version' ),
 		true
