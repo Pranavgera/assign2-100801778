@@ -11,3 +11,14 @@
     Text Domain: twentytwentyone 
     Tags: one-column,accessibility-ready,custom-colors,custom-menu,custom-logo,editor-style,featured-images,footer-widgets,block-patterns,rtl-language-support,sticky-post,threaded-comments,translation-ready
     */
+
+    body{
+        font-family;
+        text-align:center;
+    }
+
+    h2{
+        color:rgb(241, 167, 167);
+        font-family:
+        Roboto;
+    }
