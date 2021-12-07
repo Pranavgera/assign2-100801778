@@ -32,10 +32,11 @@
     if($test_query->have_posts()){         
         while ($test_query->have_posts()){             
             $test_query->the_post();                  
-            the_post_thumbnail( $size = ["150px","250px"], $attr = '' );
+            
 			?>	    
             <h3> <a href="<?php the_permalink()?>"> <?php the_title();?> </a></h3>             
 			<?php
+			the_post_thumbnail( $size = ["500px","350px"], $attr = '' );
             the_excerpt();              
         }               
     } 
